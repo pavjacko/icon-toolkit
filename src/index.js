@@ -59,7 +59,7 @@ class IconToolkit {
     if(opts.android) {
       sand = opts.android.source ? opts.android.source : sand
       if(!sand) console.error('No source specified for Android!')
-      fand = opts.sand.destinationFolder ? opts.android.destinationFolder : pand
+      fand = opts.android.destinationFolder ? opts.android.destinationFolder : pand
       if(!fand) console.error('No destinationFolder specified for Android!')
     }
 
@@ -76,6 +76,10 @@ class IconToolkit {
       })
     }
   })
+}
+
+const successHandler = (v) => {
+  //console.log('SUCCESS!', v)
 }
 
 const getDefaultPathiOS = (p) => {
@@ -114,9 +118,9 @@ const gIcon = (source, dest, size, s, e) => {
     lenna.resize(size, size)
          .quality(60)
          //.greyscale()
-         .write(dest)
+         .write(dest, s)
 
-    s()
+
   }).catch(function (err) {
     e(err)
   })

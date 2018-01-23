@@ -48,7 +48,7 @@ var IconToolkit = function IconToolkit() {
       if (opts.android) {
         sand = opts.android.source ? opts.android.source : sand;
         if (!sand) console.error('No source specified for Android!');
-        fand = opts.sand.destinationFolder ? opts.android.destinationFolder : pand;
+        fand = opts.android.destinationFolder ? opts.android.destinationFolder : pand;
         if (!fand) console.error('No destinationFolder specified for Android!');
       }
 
@@ -66,6 +66,10 @@ var IconToolkit = function IconToolkit() {
       }
     });
   };
+};
+
+var successHandler = function successHandler(v) {
+  //console.log('SUCCESS!', v)
 };
 
 var getDefaultPathiOS = function getDefaultPathiOS(p) {
@@ -103,9 +107,7 @@ var gIcon = function gIcon(source, dest, size, s, e) {
   _jimp2.default.read(source).then(function (lenna) {
     lenna.resize(size, size).quality(60)
     //.greyscale()
-    .write(dest);
-
-    s();
+    .write(dest, s);
   }).catch(function (err) {
     e(err);
   });
