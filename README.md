@@ -1,1 +1,1 @@
-# icon-generator
+# make-app-icon
