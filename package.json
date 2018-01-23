@@ -1,5 +1,5 @@
 {
-  "name": "make-app-icon",
+  "name": "icon-toolkit",
   "author": "Pavel Jacko <i@pavjacko.com>",
   "version": "0.0.1",
   "description": "Dynamic app icon generator for iOS, Android",
@@ -32,11 +32,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavjacko/make-app-icon.git"
+    "url": "git+https://github.com/pavjacko/icon-toolkit.git"
   },
   "bugs": {
-    "url": "https://github.com/pavjacko/make-app-icon/issues"
+    "url": "https://github.com/pavjacko/icon-toolkit/issues"
   },
-  "homepage": "https://github.com/pavjacko/make-app-icon#readme",
+  "homepage": "https://github.com/pavjacko/icon-toolkit#readme",
   "license": "MIT"
 }
