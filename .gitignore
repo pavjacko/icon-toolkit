@@ -1,4 +1,4 @@
-node_modules
+node_modules/
 *.log
 *.pid
 *.seed
@@ -7,3 +7,4 @@ lib
 coverage
 logs
 pids
+build
