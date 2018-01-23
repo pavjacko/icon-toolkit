@@ -15,9 +15,12 @@
     "test-cov": "babel-node isparta cover --report html --report text node_modules/.bin/_mocha",
     "build": "babel src --out-dir build",
     "clean": "rm -rf build",
-    "lint": "eslint src test"
+    "lint": "eslint src test",
+    "watch": "nodemon --watch src --exec npm run build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jimp": "0.2.28"
+  },
   "devDependencies": {
     "babel-core": "^6.1.21",
     "babel-eslint": "^4.1.5",
