@@ -1,22 +1,22 @@
-import { expect } from 'chai';
-import Person from '../src/index.js';
+import { expect } from 'chai'
+import IconToolkit from '../src/index.js'
 
-describe("Person", () => {
-  let person;
+describe('IconToolkit', () => {
+  let toolit
 
   before(() => {
-    person = new Person('Cam', 99);
-  });
+    toolit = IconToolkit
+  })
 
   after(() => {
-    person = undefined;
-  });
+    toolit = undefined
+  })
 
-  it("should return name", function() {
-    expect(person.getName()).to.equal('Cam');
-  });
-
-  it("should return age", function() {
-    expect(person.getAge()).to.equal(99);
-  });
-});
+  // it("should return name", function() {
+  //   expect(person.getName()).to.equal('Cam');
+  // });
+  //
+  // it("should return age", function() {
+  //   expect(person.getAge()).to.equal(99);
+  // });
+})
