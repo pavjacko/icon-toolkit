@@ -1,5 +1,7 @@
 # icon-toolkit
 
+Dynamic app icon generator for iOS, Android
+
 [![NPM version](https://img.shields.io/npm/v/icon-toolkit.svg?style=flat)](https://www.npmjs.com/package/icon-toolkit)
 [![Build Status](https://img.shields.io/travis/pavjacko/icon-toolkit.svg?style=flat)](https://travis-ci.org/pavjacko/icon-toolkit)
 [![Coverage Status](https://img.shields.io/coveralls/pavjacko/icon-toolkit.svg?style=flat)](https://coveralls.io/r/pavjacko/icon-toolkit)
