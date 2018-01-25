@@ -15,11 +15,10 @@ Dynamic app icon generator for iOS, Android
 
 ## Usage
 
-Usage 1:
+Usage 1 (Basic):
 
 ```js
 import IconToolkit from 'icon-toolkit'
-import path from 'path'
 
 IconToolkit.generateIcons({
   source: '/Users/userX/sourceImage.png'),
@@ -28,11 +27,10 @@ IconToolkit.generateIcons({
 
 ```
 
-Usage 2:
+Usage 2 (iOS / Android split):
 
 ```js
 import IconToolkit from 'icon-toolkit'
-import path from 'path'
 
 IconToolkit.generateIcons({
   source: '/Users/userX/sourceImage.png'),
@@ -46,11 +44,10 @@ IconToolkit.generateIcons({
 
 ```
 
-Usage 3:
+Usage 3 (Advanced):
 
 ```js
 import IconToolkit from 'icon-toolkit'
-import path from 'path'
 
 IconToolkit.generateIcons({
   ios: {
@@ -64,3 +61,11 @@ IconToolkit.generateIcons({
 }).then(() => console.log('SUCCESS!'))
 
 ```
+
+## Contributing ##
+
+Basicaly clone, change, test, push and pull request.
+
+## License ##
+
+icon-toolkit is licensed under the MIT license.
