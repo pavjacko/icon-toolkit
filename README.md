@@ -15,7 +15,9 @@ Dynamic app icon generator for iOS, Android
 
 ## Usage
 
-Usage 1 (Basic):
+IconToolkit API is Promise based
+
+#### Usage 1 (Basic):
 
 ```js
 import IconToolkit from 'icon-toolkit'
@@ -27,7 +29,7 @@ IconToolkit.generateIcons({
 
 ```
 
-Usage 2 (iOS / Android split):
+#### Usage 2 (iOS / Android split):
 
 ```js
 import IconToolkit from 'icon-toolkit'
@@ -44,7 +46,7 @@ IconToolkit.generateIcons({
 
 ```
 
-Usage 3 (Advanced):
+#### Usage 3 (Advanced):
 
 ```js
 import IconToolkit from 'icon-toolkit'
@@ -62,11 +64,11 @@ IconToolkit.generateIcons({
 
 ```
 
-Output
+#### Output
 
 | iOS        | Android           |
 | :-------------: |:-------------:|
-| ![iOS][docs/ios.png] | ![Android][docs/android.png] |
+| ![iOS](docs/ios.png) | ![Android](docs/android.png) |
 
 ## Contributing ##
 
