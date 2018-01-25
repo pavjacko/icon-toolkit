@@ -1,14 +1,17 @@
 {
   "name": "icon-toolkit",
   "author": "Pavel Jacko <i@pavjacko.com>",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Dynamic app icon generator for iOS, Android",
   "main": "build/index.js",
   "keywords": [
-    "es6",
-    "babel",
-    "eslint",
-    "npm package"
+    "app",
+    "icon",
+    "icons",
+    "generator",
+    "ios",
+    "android",
+    "toolkit"
   ],
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --recursive",

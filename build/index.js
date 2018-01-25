@@ -54,9 +54,10 @@ var IconToolkit = function IconToolkit() {
 
       if (fios && sios) {
         mkdirp(fios);
-        androidIcons.forEach(function (v) {
+        iosIcons.forEach(function (v) {
           gIcon(sios, _path2.default.join(fios, v[0]), v[1], resolve, reject);
         });
+        copyFileSync(_path2.default.join(__dirname, '../assets/Contents.json'), _path2.default.join(fios, 'Contents.json'));
       }
       if (fand && sand) {
         mkdirp(fand);
@@ -111,6 +112,21 @@ var gIcon = function gIcon(source, dest, size, s, e) {
   }).catch(function (err) {
     e(err);
   });
+};
+
+var copyFileSync = function copyFileSync(source, target) {
+  var targetFile = target;
+
+  // console.log('Copy assets from: %s to %s', source, target)
+
+  // if target is a directory a new file with the same name will be created
+  if (_fs2.default.existsSync(target)) {
+    if (_fs2.default.lstatSync(target).isDirectory()) {
+      targetFile = _path2.default.join(target, _path2.default.basename(source));
+    }
+  }
+
+  _fs2.default.writeFileSync(targetFile, _fs2.default.readFileSync(source));
 };
 
 exports.default = new IconToolkit();

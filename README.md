@@ -1,4 +1,4 @@
-# icon-toolkit
+# icon-toolkit #
 
 Dynamic app icon generator for iOS, Android
 
@@ -8,3 +8,59 @@ Dynamic app icon generator for iOS, Android
 [![Code Climate](https://img.shields.io/codeclimate/github/pavjacko/icon-toolkit.svg?style=flat)](https://codeclimate.com/github/pavjacko/icon-toolkit)
 [![Dependency Status](https://img.shields.io/david/pavjacko/icon-toolkit.svg?style=flat)](https://david-dm.org/pavjacko/icon-toolkit)
 [![devDependency Status](https://img.shields.io/david/dev/pavjacko/icon-toolkit.svg?style=flat)](https://david-dm.org/pavjacko/icon-toolkit#info=devDependencies)
+
+## Installation
+
+`npm install --save icon-toolkit`
+
+## Usage
+
+Usage 1:
+
+```js
+import IconToolkit from 'icon-toolkit'
+import path from 'path'
+
+IconToolkit.generateIcons({
+  source: '/Users/userX/sourceImage.png'),
+  destinationFolder: '/Users/userX/exportIcons')
+}).then(() => console.log('SUCCESS!'))
+
+```
+
+Usage 2:
+
+```js
+import IconToolkit from 'icon-toolkit'
+import path from 'path'
+
+IconToolkit.generateIcons({
+  source: '/Users/userX/sourceImage.png'),
+  ios: {
+    destinationFolder: '/Users/userX/myIosIcons')
+  },
+  android: {
+    destinationFolder: '/Users/userX/myAndroidIcons')
+  }
+}).then(() => console.log('SUCCESS!'))
+
+```
+
+Usage 3:
+
+```js
+import IconToolkit from 'icon-toolkit'
+import path from 'path'
+
+IconToolkit.generateIcons({
+  ios: {
+    source: '/Users/userX/iOSImage.png'),
+    destinationFolder: '/Users/userX/myIosIcons')
+  },
+  android: {
+    source: '/Users/userX/androidImage.png'),
+    destinationFolder: '/Users/userX/myAndroidIcons')
+  }
+}).then(() => console.log('SUCCESS!'))
+
+```
