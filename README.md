@@ -62,6 +62,12 @@ IconToolkit.generateIcons({
 
 ```
 
+Output
+
+| iOS        | Android           |
+| :-------------: |:-------------:|
+| ![iOS][docs/ios.png] | ![Android][docs/android.png] |
+
 ## Contributing ##
 
 Basicaly clone, change, test, push and pull request.
