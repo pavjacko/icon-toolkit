@@ -74,6 +74,7 @@ var IconToolkit = function IconToolkit() {
 var successHandler = function successHandler(v) {
   //console.log('SUCCESS!', v)
   //TODO
+  //TODO
 };
 
 var getDefaultPathiOS = function getDefaultPathiOS(p) {
