@@ -65,6 +65,7 @@ class IconToolkit {
 
     if(fios && sios) {
       mkdirp(fios)
+      console.log('Creating Directory:', fios)
       iosIcons.forEach((v) => {
         gIcon(sios, path.join(fios, v[0]), v[1], resolve, reject)
       })
@@ -72,6 +73,7 @@ class IconToolkit {
     }
     if(fand && sand) {
       mkdirp(fand)
+      console.log('Creating Directory:', fand)
       androidIcons.forEach((v) => {
         gIcon(sand, path.join(fand, v[0]), v[1], resolve, reject)
       })

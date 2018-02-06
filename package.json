@@ -1,7 +1,7 @@
 {
   "name": "icon-toolkit",
   "author": "Pavel Jacko <i@pavjacko.com>",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Dynamic app icon generator for iOS, Android",
   "main": "build/index.js",
   "keywords": [
