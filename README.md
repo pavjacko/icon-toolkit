@@ -7,7 +7,7 @@ Dynamic app icon generator for iOS, Android
 [![Coverage Status](https://img.shields.io/coveralls/pavjacko/icon-toolkit.svg?style=flat)](https://coveralls.io/r/pavjacko/icon-toolkit)
 [![Code Climate](https://img.shields.io/codeclimate/github/pavjacko/icon-toolkit.svg?style=flat)](https://codeclimate.com/github/pavjacko/icon-toolkit)
 [![Dependency Status](https://img.shields.io/david/pavjacko/icon-toolkit.svg?style=flat)](https://david-dm.org/pavjacko/icon-toolkit)
-[![devDependency Status](https://img.shields.io/david/dev/pavjacko/icon-toolkit.svg?style=flat)](https://david-dm.org/pavjacko/icon-toolkit#info=devDependencies)
+[![devDependency Status](https://img.shields.io/david/dev/pavjacko/icon-toolkit.svg?style=flat)](https://david-dm.org/pavjacko/icon-toolkit#info=devDependencies) [![Join the chat at https://gitter.im/pavjacko/icon-toolkit](https://badges.gitter.im/pavjacko/icon-toolkit.svg)](https://gitter.im/pavjacko/icon-toolkit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Installation
 
